@@ -1,0 +1,240 @@
+/*
+WINNIE, Copyright (C) 2008, Joël Cohen
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+default.css
+
+*/
+
+html {
+	background-color: #eee;
+	color: #666;
+	line-height: 1.5em;
+	font-family: 'Lucida Grande', Helvetica, sans-serif;
+}
+
+body {
+	margin: 0 auto;
+	padding: 1em 0;
+	min-width: 300px;
+	width: 40em;
+}
+
+h1 {
+	margin: 0.5em 0 0 0;/* Top, Right, Bottom, Left */
+	letter-spacing: -0.05em;
+	font-family: Helvetica, sans-serif;
+	font-size: 3em;
+	color: #333;
+}
+h1:after {
+	content: "®";
+	font-size: 0.15em;
+	margin-left: 0.15em;
+}
+h1:first-letter {
+	font-size: 135%;
+	color: #F00;
+}
+h1 + h2 {
+	margin: 0 0 0.5em 0;/* Top, Right, Bottom, Left */
+	font-size: 1.2em;
+	color: #666;
+}
+
+h2 {
+	font-size: 1.5em;
+	line-height: 1em;
+	color: #333;
+	margin: 2em 0 0.5em 0;/* Top, Right, Bottom, Left */
+}
+
+code {
+	font-size: 1.2em;
+	color: #093;
+}
+
+fieldset legend {
+	font-size: 1.2em;
+	font-weight: bold;	
+	color: #333;
+}
+
+#Footer {
+	font-size: 0.8em;
+	text-align: center;
+	color: #666;
+	padding: 1em 0;
+	clear: both;
+}
+
+#Footer a {
+	color: #333;
+	text-decoration: none;
+}
+
+
+table {
+	border: solid thin #CCCCCC;
+	font-size: 0.9em;
+	margin: 2em auto;
+	width: 95%;
+}
+
+td, th {
+	padding: 0.4em 0.6em;
+	text-align: left;
+}
+
+th {
+	background-color: #EEEEEE;
+	padding: 0.4em 1em;
+	color: #666666;
+}
+
+div.Error {
+	background-color: #fcc;
+	padding: 1em 2em;
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	margin-bottom: 1em;
+	text-align:left;
+	display: block;
+	color: #f00;
+}
+
+.Notification {
+	background-color: #cfc;
+	padding: 1em 2em;
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	margin-bottom: 1em;
+	text-align:left;
+	display: block;
+	color: #090;
+}
+
+.Warning {
+	color: #999999;
+}
+
+.Warning:hover {
+	color: #FF0000;
+}
+
+hr {
+	border: 0 none;
+	margin: 2em 0;
+}
+
+form {
+	text-align: right;
+}
+
+form ol {
+	margin: 0;
+	padding: 0;
+}
+
+form li {
+	list-style: none;
+	margin: 0.5em 0;
+	padding: 1%;
+	border-top: thin solid #eee;
+	background-repeat: repeat-x;
+}
+
+#Main, fieldset {
+	background-color: #fff;
+	padding: 2em 3em;
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	margin-bottom: 1em;
+	text-align: left;
+	border: 0 none;
+}
+
+input[type="submit"] {
+	padding: 0.5em 1.2em;
+	font-size: 1em;
+	color: #fff;
+	background-color: #333;
+	border: 0 none;
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	margin: 0;
+}
+input[type="submit"]:hover {
+	background-color: #111;
+}
+input[type="submit"]:active {
+	background-color: #000;
+}
+
+form h3 {
+	text-align: left;
+	font-size: 2.2em;
+	letter-spacing: -0.05em;
+	margin: 1em 0 0 0.5em;
+	color: #CCCCFF;
+}
+
+
+fieldset input, textarea {
+	background-color: #fff;
+	background-image: url(images/inputGradient.gif);
+	background-repeat: repeat-x;
+	padding: 1%;
+	margin: 0 0 1em 0;/* Top, Right, Bottom, Left */
+	padding: 0.3em;
+	border: thin solid #ccc;
+	width: 76%;
+}
+
+input.Error {
+	background-color: #fcc;
+	border: thin solid #f00;
+}
+
+input#url {
+	background: #fff;
+	color: #039;
+	font-family: 'monaco', courier, mono;
+	font-size: 1em;
+	border: none;
+}
+
+a#url {
+	color: #000;
+	font-family: 'monaco', courier, mono;
+	font-size: 1.4em;
+}
+
+label {
+	color: #000;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;
+	width: 20%;
+}
+
+
+/* Youtube videos */
+
+object {
+	display: block;
+	width: 425px;
+	margin: 0.5em auto;
+}

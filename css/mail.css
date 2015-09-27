@@ -1,0 +1,36 @@
+html {
+	background-color: #fff;
+	color: #000;
+}
+
+body {
+	margin: 0.5em;
+	padding: 0 auto;
+}
+body.youtube {
+	width: 435px;
+}
+
+#Footer {
+	color: #999;
+	padding: 1.5em 0;
+	clear: both;
+}
+
+
+p {
+	margin: 0.5em 0;
+}
+
+a#url {
+	color: #039;
+}
+
+
+/* Youtube videos */
+
+object {
+	display: block;
+	width: 425px;
+	margin: 0.5em auto;
+}
